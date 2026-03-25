@@ -13,7 +13,7 @@ void reverseArray(vector<int> &nums,int start,int end){
 }
 void rotate(vector<int> & nums ,int k){
     int n=nums.size();
-    k=k%n;
+    k=k%n; 
     reverseArray(nums,0,n-1);
     reverseArray(nums,0,k-1);
     reverseArray(nums,k,n-1);
@@ -25,7 +25,7 @@ int main() {
     rotate(nums,k);
     for(auto x:nums){
         cout<< x<<" ";
-    }
+    } 
     cout<<endl;
 
     

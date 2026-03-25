@@ -15,7 +15,7 @@ using namespace std;
                 second=first;
                 first=x;
             }else if(x>second){
-                third=second;;
+                third=second;
                 second=x;
             }else if(x>third){
                 third=x;

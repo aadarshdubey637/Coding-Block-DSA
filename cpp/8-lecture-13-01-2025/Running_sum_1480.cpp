@@ -4,13 +4,13 @@
 using namespace std;
  vector<int> runningSum(vector<int>& nums) {
         for(int i=1;i<nums.size();i++){
-            nums[i]+=nums[i-1];
+            nums[i]+=nums[i];
         }
         return nums;
     }
 
 int main() {
-    vector<int> nums={1,2,3,4};
+    vector<int> nums={2,3,4,1};
    vector<int> result= runningSum(nums);
    for(auto x:result){
         cout<<x<<" ";

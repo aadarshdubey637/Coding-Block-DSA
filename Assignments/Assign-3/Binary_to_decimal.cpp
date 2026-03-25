@@ -11,7 +11,7 @@ int binary_To_decimal(int binary){
     return decimal;
 }
 int main() {
-    int binary;
+    int binary;   
     cin>>binary;
     cout<<binary_To_decimal(binary);
     return 0;
