@@ -15,7 +15,7 @@
 //                 swap(arr[j],arr[j+1]);
 //             }
 //         }
-//     }
+//     }    
 //     for(int i=0;i<n;i++){
 //         cout<<arr[i]<<" ";
 //     }
@@ -39,7 +39,6 @@ void bubbleSort(int arr[], int n){
         }
     }
 }
-
 int main() {
     
     int n;
